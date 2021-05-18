@@ -66,12 +66,18 @@
         padding-bottom: 5% !important;
     }
 
+    .round-button{
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 27px !important;
+    }
+
     p{
         width: 100% !important;
     }
 
     .txt-sm {
-        font-size: 8px !important;
+        font-size: 12px !important;
     }
     .txt-md {
         font-size: 13px !important;
