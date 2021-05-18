@@ -180,13 +180,13 @@ main {
 	padding: 2% 4% 2% 4%;
 	border-radius: 12px;
 }
-.expert-comments-top div a,
-.items-covered div a,
-.sessions-page div a,
-.agenda-section div a,
-.expert-reviews-section div a,
-.partners-section div a,
-.faq-section div a {
+.expert-comments-top div a.button,
+.items-covered div a.button,
+.sessions-page div a.button,
+.agenda-section div a.button,
+.expert-reviews-section div a.button,
+.partners-section div a.button,
+.faq-section div a.button {
 	padding: 1% 2% 1% 2% !important;
 }
 .round-button {
@@ -576,6 +576,11 @@ footer img {
 
 .tabcontent {
 	animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+nav a, a{
+    color:black;
+    text-decoration: none;
 }
 
 /* Go from zero to full opacity */
