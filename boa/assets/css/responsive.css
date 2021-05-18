@@ -1,0 +1,85 @@
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block !important;
+    }
+
+    .stats-section div:first-child{
+        width: 100% !important;
+    }
+
+    .picture-info-section .info-box{
+        width: 100% !important;
+    }
+
+    .float-left {
+        float: left;
+        margin-bottom: 5% !important;
+    }
+    .float-right {
+        margin-bottom: 5% !important;
+        margin-top: 5% !important;
+    }
+
+    .info-box .img-bg{
+        height: 400px !important;
+    }
+
+    .expert-review{
+        background: #ffffff;
+        padding: 5% 5% 5% 5%;
+        width: 500px;
+        height: auto;
+    }
+
+    form{
+        width: 100% !important;
+    }
+    .partners-logo img{
+        width: auto !important;
+        height: 50px !important;
+    }
+    .top-section {
+        padding-top: 5% !important;
+        width: 100% !important;
+    }
+    .top-section .title{
+        font-size:25px !important;
+        line-height: 30px !important;
+        width: 100% !important;
+    }
+
+    .agenda-section .title{
+        font-size:15px !important;
+        line-height: 25px !important;
+    }
+    .accordion{
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+
+    p{
+        width: 100% !important;
+    }
+
+    .txt-sm {
+        font-size: 8px !important;
+    }
+    .txt-md {
+        font-size: 13px !important;
+    }
+    .txt-lg {
+        font-size: 15px !important;
+    }
+    .txt-xlg {
+        font-size: 18px !important;
+    }
+}

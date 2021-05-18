@@ -7,13 +7,14 @@
         <title>Document</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/dcf3d07c5a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="row w-100">
+        <nav class="row w-100 desktop">
             <div class="col-lg-4 col-md-4">
                 <div class="d-flex justify-content-left nav-logo">
                     <a href="#"><img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt=""></a>
@@ -45,6 +46,20 @@
                 </div>
             </div>
         </nav>
+        <!-- Top Navigation Menu for mobile -->
+        <div class="topnav mobile">
+            <a href="#home" class="active">Logo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <main class="w-100">
             <div class="top-section">
                 <p class="title txt-xlg txt-blue">The Business of Agriculture Master Class</p>
@@ -56,7 +71,7 @@
             <!-- Live session section -->
             <div class="live-session d-none">
                 <div class="green-box w-90">
-                    <div class="row">
+                    <div class="row w-100">
                         <div class="col-lg-4 col-md-4">
                             <div class="img">
                                 <span class="badge bg-red txt-white title txt-md">Live</span>
@@ -81,27 +96,27 @@
             <!-- Statistics Section -->
             <div class="stats-section my-4">
                 <div class="row w-90">
-                    <div class="col-md-4 col-lg-4 mb-4 pr-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-6 mb-4 pr-4">
                         <i class="fas fa-star txt-lg"></i>
                         <p class="txt-green txt-xlg title">21-23 June</p>
                         <p class="txt-normal txt-sm text">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mb-4 pr-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-6 mb-4 pr-4">
                         <i class="fas fa-star txt-lg"></i>
                         <p class="txt-green txt-xlg title">21-23 June</p>
                         <p class="txt-normal txt-sm text">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mb-4 pr-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-6 mb-4 pr-4">
                         <i class="fas fa-star txt-lg"></i>
                         <p class="txt-green txt-xlg title">21-23 June</p>
                         <p class="txt-normal txt-sm text">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mb-4 pr-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-6 mb-4 pr-4">
                         <i class="fas fa-star txt-lg"></i>
                         <p class="txt-green txt-xlg title">21-23 June</p>
                         <p class="txt-normal txt-sm text">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mb-4 pr-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-6 mb-4 pr-4">
                         <i class="fas fa-star txt-lg"></i>
                         <p class="txt-green txt-xlg title">21-23 June</p>
                         <p class="txt-normal txt-sm text">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
@@ -167,7 +182,7 @@
                 <div class="accordion title txt-md py-5 txt-white">Insta-Live Sessions</div>
                 <div class="panel dotted-border-bottom">
                     <div class="row w-100">
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -181,7 +196,7 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -195,7 +210,7 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -214,7 +229,7 @@
                 <div class="accordion title txt-md py-5 txt-white">Masterclass Day 1 / 21st June 2021</div>
                 <div class="panel dotted-border-bottom">
                     <div class="row w-100">
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -225,7 +240,7 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -236,45 +251,7 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
-                            <div class="date-circle px-0">
-                                <p class="txt-white">14<br>June</p>
-                            </div>
-                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
-                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
-                            <p class="txt-white txt-thin txt-sm">
-                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
-                            </p>
-                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion title txt-md py-5 txt-white">Masterclass Day 1 / 21st June 2021</div>
-                <div class="panel dotted-border-bottom">
-                    <div class="row w-100">
-                        <div class="col-lg-4 pl-0 pr-5">
-                            <div class="date-circle px-0">
-                                <p class="txt-white">14<br>June</p>
-                            </div>
-                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
-                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
-                            <p class="txt-white txt-thin txt-sm">
-                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
-                            </p>
-                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
-                        </div>
-                        <div class="col-lg-4 pl-0 pr-5">
-                            <div class="date-circle px-0">
-                                <p class="txt-white">14<br>June</p>
-                            </div>
-                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
-                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
-                            <p class="txt-white txt-thin txt-sm">
-                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
-                            </p>
-                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
-                        </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -290,7 +267,7 @@
                 <div class="accordion title txt-md py-5 txt-white">Masterclass Day 1 / 21st June 2021</div>
                 <div class="panel dotted-border-bottom">
                     <div class="row w-100">
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -301,7 +278,7 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -312,7 +289,45 @@
                             </p>
                             <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
                         </div>
-                        <div class="col-lg-4 pl-0 pr-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
+                            <div class="date-circle px-0">
+                                <p class="txt-white">14<br>June</p>
+                            </div>
+                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
+                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
+                            <p class="txt-white txt-thin txt-sm">
+                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
+                            </p>
+                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion title txt-md py-5 txt-white">Masterclass Day 1 / 21st June 2021</div>
+                <div class="panel dotted-border-bottom">
+                    <div class="row w-100">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
+                            <div class="date-circle px-0">
+                                <p class="txt-white">14<br>June</p>
+                            </div>
+                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
+                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
+                            <p class="txt-white txt-thin txt-sm">
+                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
+                            </p>
+                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
+                            <div class="date-circle px-0">
+                                <p class="txt-white">14<br>June</p>
+                            </div>
+                            <p class="title txt-md txt-white">Masterclass Launch: Understanding the Business of Agriculture in Nigeria</p>
+                            <p class="text txt-thin txt-md txt-white">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
+                            <p class="txt-white txt-thin txt-sm">
+                                <span class="txt-bold txt-sm">FEATURING:</span> <br> <u>Lolade Johnson-Agiri, Oludare odusanya, Chidinma Iniomom</u>
+                            </p>
+                            <p class="txt-white txt-sm"><i class="fas fa-clock mr-1"></i>Remind Me</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 pl-0 pr-5">
                             <div class="date-circle px-0">
                                 <p class="txt-white">14<br>June</p>
                             </div>
@@ -333,8 +348,8 @@
             <div class="expert-reviews-section">
                 <p class="title header txt-white txt-xlg">Here’s what the experts are saying</p>
                 <p class="text txt-white w-80 txt-lg txt-thin">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
-                <div class="reviews">
-                    <div class="expert-cards mt-4 row">
+                <div class="reviews desktop">
+                    <div class="expert-cards mt-4 row w-100">
                         <div>
                             <img src="assets/imgs/user1.png" alt="">
                         </div>
@@ -344,7 +359,7 @@
                             <p class="text txt-normal txt-md">“Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.”</p>
                         </div>
                     </div>
-                    <div class="expert-cards mt-4 row">
+                    <div class="expert-cards mt-4 row w-100">
                         <div class="expert-review-left">
                             <p class="txt-blue txt-sm title">Abimbola Okoya, GM BATNF Foundation</p>
                             <p class="text txt-thin txt-sm">Speaks about the importance of the master class</p>
@@ -352,6 +367,24 @@
                         </div>
                         <div class="review-pic-right">
                             <img src="assets/imgs/user1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews mobile">
+                    <div class="row mb-3 w-100">
+                        <img src="assets/imgs/user1.png" alt="" class="w-100">
+                        <div class="expert-review">
+                            <p class="txt-blue txt-sm title">Abimbola Okoya, GM BATNF Foundation</p>
+                            <p class="text txt-thin txt-sm">Speaks about the importance of the master class</p>
+                            <p class="text txt-normal txt-md">“Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.”</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 w-100">
+                        <img src="assets/imgs/user1.png" alt="" class="w-100">
+                        <div class="expert-review">
+                            <p class="txt-blue txt-sm title">Abimbola Okoya, GM BATNF Foundation</p>
+                            <p class="text txt-thin txt-sm">Speaks about the importance of the master class</p>
+                            <p class="text txt-normal txt-md">“Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.”</p>
                         </div>
                     </div>
                 </div>
@@ -364,128 +397,68 @@
                 <p class="title header txt-green">Our Partners</p>
                 <p class="text txt-normal text-dark w-80 txt-lg">The Business of Agriculture Master class is an initiative of Cluster 5 of the SDG Private sector advisory group and supported by all PSAG Members</p>
                 <div class="row mt-5 w-100">
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-auto w-70">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 mb-4">
-                        <div class="partner-logo-box row">
-                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-90">
+                    <div class="col-lg-2 col-md-2 col-6 mb-4">
+                        <div class="partner-logo-box row w-100">
+                            <img src="assets/imgs/logos/BoA Logo 1.png" alt="" class="mx-auto w-70">
                         </div>
                     </div>
                 </div>
-                <div class="row pl-3 mt-5">
+                <div class="row pl-3 mt-5 w-100">
                     <a href="" class="txt-white txt-sm my-3 bg-blue txt-bold button">Learn about PSAG Nigeria</a>
                 </div>
             </div>
@@ -521,18 +494,18 @@
                         <p class="txt-md txt-bold text text-dark">Your Details</p>
                     </div>
                     <div class="row w-100">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="" placeholder="First Name" class="text txt-md txt-dark txt-normal">
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="" placeholder="Last Name" class="text txt-md txt-dark txt-normal">
                         </div>
                     </div>
                     <div class="row w-100">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="" placeholder="Mobile Number" class="text txt-md txt-dark txt-normal">
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="" placeholder="Email Address" class="text txt-md txt-dark txt-normal">
                         </div>
                     </div>
@@ -540,10 +513,10 @@
                         <p class="txt-md txt-bold text text-dark">Your Location</p>
                     </div>
                     <div class="row w-100">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="">
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 col-12">
                             <input type="text" name="" id="">
                         </div>
                     </div>
@@ -606,7 +579,7 @@
         </main>
         <footer>
             <div class="row w-100">
-                <div class="col-lg-5 col-md-5 partners-logo">
+                <div class="col-lg-5 col-md-5 col-12 partners-logo">
                     <div class="row">
                         <div class="d-flex justify-content-center">
                             <img src="assets/imgs/logos/BATNF Logo 2 1.png" alt="" class="mx-4">
@@ -616,7 +589,7 @@
                     </div>
                     <p class="text txt-normal txt-dark text-left mt-5">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 footer-quick-links">
+                <div class="col-lg-4 col-md-4 col-12 footer-quick-links">
                     <p class="txt-blue text txt-md txt-normal txt-bold mb-4">Quick Links</p>
                     <ul>
                         <li>About PSAG</li>
@@ -624,7 +597,7 @@
                         <li>SDG Global Fund</li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 sc-links">
+                <div class="col-lg-3 col-md-3 col-12 sc-links">
                     <div class="d-flex">
                         <i class="fab fa-facebook-square txt-xlg txt-blue mr-5"></i>
                         <i class="fab fa-instagram-square txt-xlg txt-blue mr-5"></i>
@@ -650,5 +623,6 @@
             });
             }
         </script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
