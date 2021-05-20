@@ -142,5 +142,7 @@
     }
     #myLinks a{
         border-bottom: 1px dashed #ffffff !important;
+        font-size:15px !important;
+        font-family: "Roboto Slab", serif !important;
     }
 }
