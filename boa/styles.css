@@ -365,7 +365,7 @@ main {
 .faq-section .accordion {
 	background: #ffffff;
 	border: none;
-	font-size: 17px;
+	font-size: 17px !important;
 	padding: 1% 2% 1% 2%;
 	box-sizing: border-box;
 	outline: none;
