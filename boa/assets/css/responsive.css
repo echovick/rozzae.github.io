@@ -145,4 +145,8 @@
         font-size:15px !important;
         font-family: "Roboto Slab", serif !important;
     }
+    .agenda-section div .pr-5{
+        /* padding: 0% 7% 0% 8% !important; */
+        padding:0px !important;
+    }
 }
