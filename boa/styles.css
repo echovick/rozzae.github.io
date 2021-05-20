@@ -193,7 +193,7 @@ main {
 .expert-reviews-section div a.button,
 .partners-section div a.button,
 .faq-section div a.button {
-	padding: 1% 2% 1% 2% !important;
+	padding: 1% 2% 1% 2%;
 }
 .round-button {
 	width: 90px;
@@ -365,7 +365,7 @@ main {
 .faq-section .accordion {
 	background: #ffffff;
 	border: none;
-	font-size: 17px !important;
+	font-size: 17px;
 	padding: 1% 2% 1% 2%;
 	box-sizing: border-box;
 	outline: none;

@@ -7,44 +7,65 @@
         <title>Document</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/dcf3d07c5a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="row w-100 nav-desktop">
-            <div class="col-lg-4 col-md-4">
+        <nav class="row w-100 desktop">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="d-flex justify-content-left nav-logo">
-                    <img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt="">
+                    <a href="#"><img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt=""></a>
                     <img src="assets/imgs/logos/PSAG-Logo only 1.png" alt="">
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
                 <div class="d-flex nav-main">
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="agenda.html">Agenda</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="experts.html">Speakers</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="sessions.html">Sessions</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="pitch.html">Pitch</a>
+                <a href="#">Register</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5">Register</div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                 </div>
             </div>
         </nav>
+        <!-- Top Navigation Menu for mobile -->
+        <div class="topnav mobile">
+            <a href="index.html" class="active d-flex justify-content-left nav-logo">
+                <img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt="">
+                <img src="assets/imgs/logos/PSAG-Logo only 1.png" alt="">
+            </a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="agenda.html">Agenda</a>
+                <a href="experts.html">Speakers</a>
+                <a href="sessions.html">Sessions</a>
+                <a href="pitch.html">Pitch</a>
+                <a href="#">Register</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <main class="sessions">
             <div class="sessions-page">
                 <div class="page-header-section">
@@ -62,7 +83,7 @@
                     <!-- Tab content -->
                     <div id="liveSession" class="tabcontent">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -71,7 +92,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -80,7 +101,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -89,7 +110,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -98,7 +119,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -107,7 +128,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-live txt-white bg-red text-center txt-md">Live</span>
                                 </div>
@@ -121,7 +142,7 @@
 
                     <div id="upcomingSessions" class="tabcontent">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -130,7 +151,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -139,7 +160,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -148,7 +169,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -157,7 +178,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -166,7 +187,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-date txt-white bg-blue text-center txt-sm"><span class="txt-lg">14</span><br>JUNE</span>
                                 </div>
@@ -180,7 +201,7 @@
 
                     <div id="concludedSessions" class="tabcontent">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -189,7 +210,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -198,7 +219,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -207,7 +228,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -216,7 +237,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -225,7 +246,7 @@
                                     <p class="text txt-normal txt-md">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 mb-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
                                 <div class="img img-1">
                                     <span class="badge-watch-now txt-white bg-green text-center txt-md">Watch Now</span>
                                 </div>
@@ -276,39 +297,39 @@
                             <p class="txt-md txt-bold text text-dark">Which of the Sessions do you plan to attend? </p>
                         </div>
                         <div class="row checkbox-group">
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                 <label for="vehicle1" class="text txt-md txt-dark txt-normal"> Animal Husbandry</label>
                             </div>
@@ -342,7 +363,7 @@
                     </div>
                     <p class="text txt-normal txt-dark text-left mt-5">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 footer-quick-links">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 footer-quick-links">
                     <p class="txt-blue text txt-md txt-normal txt-bold mb-4">Quick Links</p>
                     <ul>
                         <li>About PSAG</li>

@@ -7,44 +7,65 @@
         <title>Document</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/dcf3d07c5a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="row w-100">
+        <nav class="row w-100 desktop">
             <div class="col-lg-4 col-md-4">
                 <div class="d-flex justify-content-left nav-logo">
-                    <img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt="">
+                    <a href="#"><img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt=""></a>
                     <img src="assets/imgs/logos/PSAG-Logo only 1.png" alt="">
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
                 <div class="d-flex nav-main">
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="agenda.html">Agenda</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="experts.html">Speakers</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="sessions.html">Sessions</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5"><a href="pitch.html">Pitch</a>
+                <a href="#">Register</a></div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                     <div class="nav-item">
-                        <div class="row title txt-md mb-5">Agenda</div>
+                        <div class="row title txt-md mb-5">Register</div>
                         <div class="row text txt-sm">3 days, 15+ Speakers, 7 Value chain sessions</div>
                     </div>
                 </div>
             </div>
         </nav>
+        <!-- Top Navigation Menu for mobile -->
+        <div class="topnav mobile">
+            <a href="index.html" class="active d-flex justify-content-left nav-logo">
+                <img src="assets/imgs/logos/BoA Logo 1.png" class="mr-3" alt="">
+                <img src="assets/imgs/logos/PSAG-Logo only 1.png" alt="">
+            </a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="agenda.html">Agenda</a>
+                <a href="experts.html">Speakers</a>
+                <a href="sessions.html">Sessions</a>
+                <a href="pitch.html">Pitch</a>
+                <a href="#">Register</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <main class="experts">
             <div class="experts-page">
                 <div class="page-header-section">
@@ -52,47 +73,47 @@
                     <p class="text txt-lg w-60 txt-normal">Our team of learning experts have designed a suite of practical programs that develop both your execution excellence capabilities and enable you to stay a step ahead.</p>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="col-lg-4 col-md-4 col-6 mb-4">
                         <p class="txt-green title txt-lg text-center">Eze Uchechukwu</p>
                         <img src="assets/imgs/user1.png" alt="" class="w-90">
                         <p class="text-center txt-green txt-md title mt-3">General Manager<br>BATN Foundation</p>
@@ -221,5 +242,6 @@
                 </div>
             </div>
         </footer>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>

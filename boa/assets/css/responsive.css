@@ -1,91 +1,146 @@
-.desktop{
-    display: block;
-}
-.mobile{
-    display: none;
+.mobile {
+	display: none;
 }
 @media only screen and (max-width: 600px) {
-    .desktop{
-        display: none !important;
-    }
-    .mobile{
-        display: block !important;
-    }
+	.desktop {
+		display: none !important;
+	}
+	.mobile {
+		display: block !important;
+	}
 
-    .stats-section div:first-child{
+	.stats-section div:first-child {
+		width: 100% !important;
+	}
+
+	.picture-info-section .info-box {
+		width: 100% !important;
+	}
+
+	.float-left {
+		float: left;
+		margin-bottom: 5% !important;
+	}
+	.float-right {
+		margin-bottom: 5% !important;
+		margin-top: 5% !important;
+	}
+
+	.info-box .img-bg {
+		height: 400px !important;
+	}
+
+	.expert-review {
+		background: #ffffff;
+		padding: 5% 5% 5% 5%;
+		width: 500px;
+		height: auto;
+	}
+
+	form {
+		width: 100% !important;
+	}
+	.partners-logo img {
+		width: auto !important;
+		height: 50px !important;
+	}
+	.top-section {
+		padding-top: 5% !important;
+		width: 100% !important;
+	}
+	.top-section .title {
+		font-size: 25px !important;
+		line-height: 30px !important;
+		width: 100% !important;
+	}
+
+	.agenda-section .title {
+		font-size: 15px !important;
+		line-height: 25px !important;
+	}
+	.accordion {
+		padding-top: 5% !important;
+		padding-bottom: 5% !important;
+	}
+
+	.round-button {
+		width: 50px !important;
+		height: 50px !important;
+		font-size: 27px !important;
+	}
+
+	p {
+		width: 100% !important;
+	}
+
+	.txt-sm {
+		font-size: 12px !important;
+	}
+	.txt-md {
+		font-size: 13px !important;
+	}
+	.txt-lg {
+		font-size: 15px !important;
+	}
+	.txt-xlg {
+		font-size: 18px !important;
+	}
+
+	a.button {
+		padding: 3% 3% 3% 3% !important;
+	}
+
+	.footer-quick-links,
+	.sc-links {
+		border: none !important;
+	}
+
+	.expert-reviews-section {
+		background: linear-gradient(
+				0deg,
+				rgba(34, 131, 61, 0.4),
+				rgba(34, 131, 61, 0.4)
+			),
+			url("assets/imgs/RDESController.png");
+		background-size: cover;
+		padding: 5% 7% 5% 8%;
+		height: 1350px;
+	}
+	.header {
+		font-size: 25px !important;
+	}
+	.faq-section .accordion {
+		padding: 2% 5% 2% 5%;
+	}
+
+	.agendas .accordion {
+		padding-bottom: 10% !important;
+	}
+	.agendas .badge-date {
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.agendas .accordion.title {
+		font-size: 20px !important;
+	}
+    .video-frame img{
+        height: auto !important;
         width: 100% !important;
     }
-
-    .picture-info-section .info-box{
-        width: 100% !important;
+    .comments-section .inner {
+        border: none !important;
+        border-bottom: 1px dashed #00aeef !important;
     }
-
-    .float-left {
-        float: left;
-        margin-bottom: 5% !important;
+    .nav-logo img{
+        width:40px !important;
+        height:40px !important;
+        border-radius: 6px !important;
+        object-fit: cover !important;
     }
-    .float-right {
-        margin-bottom: 5% !important;
-        margin-top: 5% !important;
+    a.icon{
+        font-size: 25px !important;
     }
-
-    .info-box .img-bg{
-        height: 400px !important;
-    }
-
-    .expert-review{
-        background: #ffffff;
-        padding: 5% 5% 5% 5%;
-        width: 500px;
-        height: auto;
-    }
-
-    form{
-        width: 100% !important;
-    }
-    .partners-logo img{
-        width: auto !important;
-        height: 50px !important;
-    }
-    .top-section {
-        padding-top: 5% !important;
-        width: 100% !important;
-    }
-    .top-section .title{
-        font-size:25px !important;
-        line-height: 30px !important;
-        width: 100% !important;
-    }
-
-    .agenda-section .title{
-        font-size:15px !important;
-        line-height: 25px !important;
-    }
-    .accordion{
-        padding-top: 5% !important;
-        padding-bottom: 5% !important;
-    }
-
-    .round-button{
-        width: 50px !important;
-        height: 50px !important;
-        font-size: 27px !important;
-    }
-
-    p{
-        width: 100% !important;
-    }
-
-    .txt-sm {
-        font-size: 12px !important;
-    }
-    .txt-md {
-        font-size: 13px !important;
-    }
-    .txt-lg {
-        font-size: 15px !important;
-    }
-    .txt-xlg {
-        font-size: 18px !important;
+    #myLinks a{
+        border-bottom: 1px dashed #ffffff !important;
     }
 }
